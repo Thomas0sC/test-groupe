@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fr-FR" dir="ltr">
+    <head>
+        <title>Cours et exercices de français gratuits</title>
+        <meta name="description" content="Leçons, exercices et cours de français gratuits.">
+        <meta name="author" content="Laurent Camus">
+        <meta name="copyright" content="copyright Laurent Camus">
+        <meta charset="utf-8">
+        <link rel="icon" href="image/logoIcon.png">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="headerBurgerMenu">
+                <img src="image/menu.svg" alt="Menu latérale" id="headerBurgerMenuIcon" onclick="toggleHeaderBurgerMenu()">
+
+                <div class="headerBurgerMenuBox" id="headerBurgerMenuBox">
+                    <div id="menuInfo">
+                        <img src="image/menu1.svg" alt="Icone menu">
+                        <h3>Nos autres sites</h3>
+                    </div>
+
+                    <hr>
+
+                    <div class="burgerMenuLinksBox">
+                        <a href="" class="burgerMenuLinks">
+                            <img src="image/mathematics.svg" alt="Icone mathématiques">
+                            <p>Mathématiques</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="image/english.png" alt="Icone anglais">
+                            <p>Anglais</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="image/spanish.png" alt="Icone espagnol">
+                            <p>Espagnol</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="image/german.png" alt="Icone allemand">
+                            <p>Allemand</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="image/italian.png" alt="Icone italien">
+                            <p>Italien</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="image/dutch.png" alt="Icone néerlandais">
+                            <p>Néerlandais</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="image/japanese.png" alt="Icone japonais">
+                            <p>Japonais</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="image/provencial.jpg" alt="Icone provençal">
+                            <p>Provençal</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="image/latin.png" alt="Icone latin">
+                            <p>Latin</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="image/culture.png" alt="Icone culture">
+                            <p>Culture</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="image/tools.svg" alt="Icone outils">
+                            <p>MesOutils.com</p>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="index.html" id="headerLogo">
+                <img src="image/logo.png">
+            </a>
+
+            <nav id="headerNav">
+                <ul id="navLinks">
+                    <li>
+                        <a href="index.html">Accueil</a>
+                    </li>
+
+                    <li class="scrollingMenu">
+                        <a href="html/courseHome.html">Cours</a>
+                        <ul class="subMenu">
+                            <li><a href="">Primaire</a></li>
+                            <li><a href="">Collège</a></li>
+                            <li><a href="">Lycée</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="html/forumHome.html">Forum</a>
+                    </li>
+
+                    <li class="scrollingMenu">
+                        <a href="index.html">Outils</a>
+                        <ul class="subMenu">
+                            <li><a href="">Dictionnaire</a></li>
+                            <li><a href="">Conjugaison</a></li>
+                            <li><a href="">Traduction</a></li>
+                            <li><a href="">Correcteur</a></li>
+                            <li><a href="">Signaler un problème</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>    
+
+            <form action="recherche.php" method="get" id="headerSearch">
+                <input type="search" name="search" id="search" maxlength="200" placeholder="Recherche ...">
+                <input type="image" src="image/search.svg" alt="recherche" height="15" id="searchIcon">
+            </form>
+
+            <div class="headerAccountMenu">
+                <img src="image/user.svg" alt="Menu compte" id="headerAccountMenuIcon" onclick="toggleHeaderAccountMenu()">
+
+                <div class="headerAccountMenuBox" id="headerAccountMenuBox">
+                    <div id="accountInfo">
+                        <img src="image/user.svg" alt="Photo profil">
+                        <h3>Compte</h3>
+                    </div>
+
+                    <hr>
+
+                    <a href="" class="accountLinks">
+                        <img src="image/user.svg" alt="Icone compte">
+                        <p>Gérer le compte</p>
+                    </a>
+
+                    <a href="" class="accountLinks">
+                        <img src="image/dashboard.svg" alt="Icone tableau de bord">
+                        <p>Tableau de bord</p>
+                    </a>
+
+                    <a href="" class="accountLinks">
+                        <img src="image/creator.svg" alt="Icone espace créateur">
+                        <p>Espace créateur</p>
+                    </a>
+
+                    <a href="" class="accountLinks">
+                        <img src="image/settings.svg" alt="Icone paramètres">
+                        <p>Paramètres</p>
+                    </a>
+                </div>
+
+            </div>
+
+        </header>
+
+        <h3 id="benefitsTitle">L'apprentissage en toute simplicité</h3>
+
+        <div class="home1">
+            <main>
+                <article>
+                    <img src="image/boxCours.png" alt="Illustration Cours & Révisions">
+                    <a href="#SA_1">Cours & Révisions</a>
+                </article>
+
+                <article>
+                    <img src="image/boxVideosAudios.png" alt="Illustration Vidéos & Audios">
+                    <a href="#SA_2">Vidéos & Audios</a>
+                </article>
+
+                <article>
+                    <img src="image/boxQuizTests.png" alt="Illustration Quiz & Test">
+                    <a href="#SA_3">Quiz & Tests</a>
+                </article>
+
+                <article>
+                    <img src="image/boxJeuxDefis.png" alt="Illustration Jeux & Défis">
+                    <a href="#SA_4">Jeux & Défis</a>
+                </article>
+            </main>
+
+            <aside>
+                <h2>Nouveautés</h2>
+                <div><a href="">10/01/2024 • Nouveau cours de Nils</a></div>
+                <div><a href="">10/01/2024 • Nouveau test de Nilso</a></div>
+                <div><a href="">08/01/2024 • Nouveau cours de Nilsophone</a></div>
+                <div><a href="">08/01/2024 • Nouveau test de Nilsé</a></div>
+            </aside>
+        </div>
+
+        <div class="home2">
+            <section id="SA_1">
+                <img src="image/illu_cours.png" alt="Illustration des cours">
+                <ul>
+                    <h2>Cours et révisons</h2>
+                    <li>
+                        <img id="icon-1" src="image/pt.png" alt="Icone point">
+                        <span>Cours complets de qualité et souvent mis à jour</span>
+                    </li>
+                    <li>
+                        <img id="icon-1" src="image/pt.png" alt="Icone point">
+                        <span>Pour apprendre, comprendre et réviser efficacement</span>
+                    </li>
+                    <li>
+                        <img id="icon-1" src="image/pt.png" alt="Icone point">
+                        <span>Orthographe, grammaire, vocabulaire ...</span>
+                    </li>
+                </ul>
+                <button>
+                    Voir
+                </button>
+            </section>
+            <article id="SA_2">
+                <img src="image/illu_vid.png" alt="Illustration des videos et des audios">
+                <ul>
+                    <h2>Vidéos & Audio</h2>
+                    <li>
+                        <img id="icon-1" src="image/pt.png" alt="Icone point">
+                        <span>Pour apprendre des nouvelles notions avec des vidéos et audios
+                            captivantes</span>
+                    </li>
+                    <li>
+                        <img id="icon-1" src="image/pt.png" alt="Icone point">
+                        <span>Chacun son rythme en revenant en arrière et en faisant des
+                            pauses autant que nécessaire</span>
+                    </li>
+                </ul>
+                    <button>
+                        Voir
+                    </button>
+            </article>
+            <section id="SA_3">
+                <img src="image/illu_quiz.png" alt="Illustration des quiz et des tests">
+                <ul>
+                    <h2>Quiz & Test</h2>
+                    <li>
+                        <img id="icon-1" src="image/pt.png" alt="Icone point">
+                        <span>Un très bon moyen de corriger ses lacunes</span>
+                    </li>
+                    <li>
+                        <img id="icon-1" src="image/pt.png" alt="Icone point">
+                        <span>Pour bien comprendre le cours</span>
+                    </li>
+                </ul>
+                    <button>
+                        Voir
+                    </button>
+
+            </section>
+            <article id="SA_4">
+                <img src="image/illu_jeux.png" alt="Illustration des jeux et des defis">
+                <ul>
+                    <h2>Jeux & Défis</h2>
+                    <li>
+                        <img id="icon-1" src="image/pt.png" alt="Icone point">
+                        <span>Pour apprendre en s’amusant</span>
+                    </li>
+                    <li>
+                        <img id="icon-1" src="image/pt.png" alt="Icone point">
+                        <span>Pour appliquer ses connaissances de manière interactive</span>
+                    </li>
+                </ul>
+                    <button>
+                        Voir
+                    </button>
+
+            </article>
+
+        </div>
+        
+        <div class="news">
+            <li>
+                <h2>Abonnez-vous à notre newsletter !</h2>
+                <p>Vous recevrez des cours, exercices, les nouveautés ...</p>
+            </li>
+            <a href="html/newsletter.html">
+                <button>S'abonner</button>
+            </a>
+        </div>
+        <div class="signal">
+            <li>
+                <h2>Besoin d’aide ?</h2>
+                <p>Nous sommes là pour t'aider pour toute question relative à nos produits et services.</p>
+            </li>
+            <a href="html/contact.html">
+                <button>Nous contacter</button>
+            </a>
+        </div>
+        
+        <footer>
+                <div class="webbase">
+                    <img src="image/logo.png" alt="Logo du site">
+
+                    <a href="index.html">Accueil</a>
+                    <a href="html/courseHome.html">Cours</a>
+                    <a href="html/forumHome.html">Forum</a>
+                    <a href="">Outils</a>
+
+                </div>
+            </ul>
+            <ul>
+                <li>
+                   <p>FrançaisFacile, meilleure plateforme pédagogique gratuite
+                   </p> 
+                </li>
+                <li id="social">
+                    <a href="https://twitter.com/sitedecours">
+                        <img src="image/x.png" alt="Logo du reseau social x">
+                    </a>
+                    <a href="https://www.francaisfacile.com/newlesson.php?id=7">
+                        <img src="image/msg.png" alt="Logo email">
+                    </a>
+                    <a href="https://www.francaisfacile.com/rss.xml">
+                        <img src="image/rss.png" alt="Logo du rss">
+                    </a>
+                    <a href="https://www.instagram.com/coursfrancaisfacile">
+                        <img src="image/insta.png" alt="Logo du reseau social instagram">
+                    </a>
+                    <a href="https://www.linkedin.com/company/69748203/">
+                        <img src="image/linkedin.png" alt="Logo linkedin">
+                    </a>
+                    <a href="https://www.facebook.com/Cours-de-fran%C3%A7ais-quotidiens-Fran%C3%A7aisFacilecom-208635009152323">
+                        <img src="image/facebook.png" alt="Logo du reseau social facebook">
+                    </a>
+                </li>
+
+            </ul>
+            <ul>
+                <li>
+                    <p>© copyright FrançaisFacile 2024</p>
+                </li>
+                <li id="infosite">
+                    <a href="html/mentions.html">Mentions légales</a>
+                    <a href="html/conditions.html">CGU</a>
+                    <a href="html/plan.html">Plan du site</a>
+                </li>
+
+            </ul>
+
+
+        </footer>
+
+        <script src="javascript/main.js"></script>
+
+    </body>
+</html>
