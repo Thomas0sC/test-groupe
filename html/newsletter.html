@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="fr-FR" dir="ltr">
+    <head>
+        <title>Cours et exercices de français gratuits</title>
+        <meta name="description" content="Leçons, exercices et cours de français gratuits.">
+        <meta name="author" content="Laurent Camus">
+        <meta name="copyright" content="copyright Laurent Camus">
+        <meta charset="utf-8">
+        <link rel="icon" href="../image/logoIcon.png">
+        <link rel="stylesheet" href="../css/news-style.css">
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="headerBurgerMenu">
+                <img src="../image/menu.svg" alt="Menu latérale" id="headerBurgerMenuIcon" onclick="toggleHeaderBurgerMenu()">
+
+                <div class="headerBurgerMenuBox" id="headerBurgerMenuBox">
+                    <div id="menuInfo">
+                        <img src="../image/menu1.svg" alt="Icone menu">
+                        <h3>Nos autres sites</h3>
+                    </div>
+
+                    <hr>
+
+                    <div class="burgerMenuLinksBox">
+                        <a href="" class="burgerMenuLinks">
+                            <img src="../image/mathematics.svg" alt="Icone mathématiques">
+                            <p>Mathématiques</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="../image/english.png" alt="Icone anglais">
+                            <p>Anglais</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="../image/spanish.png" alt="Icone espagnol">
+                            <p>Espagnol</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="../image/german.png" alt="Icone allemand">
+                            <p>Allemand</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="../image/italian.png" alt="Icone italien">
+                            <p>Italien</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="../image/dutch.png" alt="Icone néerlandais">
+                            <p>Néerlandais</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="../image/japanese.png" alt="Icone japonais">
+                            <p>Japonais</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="../image/provencial.jpg" alt="Icone provençal">
+                            <p>Provençal</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="../image/latin.png" alt="Icone latin">
+                            <p>Latin</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="../image/culture.png" alt="Icone culture">
+                            <p>Culture</p>
+                        </a>
+    
+                        <a href="" class="burgerMenuLinks">
+                            <img src="../image/tools.svg" alt="Icone outils">
+                            <p>MesOutils.com</p>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+            
+            <a href="../index.html" id="headerLogo">
+                <img src="../image/logo.png">
+            </a>
+
+            <nav id="headerNav">
+                <ul id="navLinks">
+                    <li>
+                        <a href="../index.html">Accueil</a>
+                    </li>
+
+                    <li class="scrollingMenu">
+                        <a href="courseHome.html">Cours</a>
+                        <ul class="subMenu">
+                            <li><a href="">Primaire</a></li>
+                            <li><a href="">Collège</a></li>
+                            <li><a href="">Lycée</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="forumHome.html">Forum</a>
+                    </li>
+
+                    <li class="scrollingMenu">
+                        <a href="../index.html">Outils</a>
+                        <ul class="subMenu">
+                            <li><a href="">Dictionnaire</a></li>
+                            <li><a href="">Conjugaison</a></li>
+                            <li><a href="">Traduction</a></li>
+                            <li><a href="">Correcteur</a></li>
+                            <li><a href="">Signaler un problème</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <form action="../recherche.php" method="get" id="headerSearch">
+                <input type="search" name="search" id="search" maxlength="200" placeholder="Recherche ...">
+                <input type="image" src="../image/search.svg" alt="recherche" height="15" id="searchIcon">
+            </form>
+
+            <div class="headerAccountMenu">
+                <img src="../image/user.svg" alt="Menu compte" id="headerAccountMenuIcon" onclick="toggleHeaderAccountMenu()">
+
+                <div class="headerAccountMenuBox" id="headerAccountMenuBox">
+                    <div id="accountInfo">
+                        <img src="../image/user.svg" alt="Photo profil">
+                        <h3>Compte</h3>
+                    </div>
+
+                    <hr>
+
+                    <a href="" class="accountLinks">
+                        <img src="../image/user.svg" alt="Icone compte">
+                        <p>Gérer le compte</p>
+                    </a>
+
+                    <a href="" class="accountLinks">
+                        <img src="../image/dashboard.svg" alt="Icone tableau de bord">
+                        <p>Tableau de bord</p>
+                    </a>
+
+                    <a href="" class="accountLinks">
+                        <img src="../image/creator.svg" alt="Icone espace créateur">
+                        <p>Espace créateur</p>
+                    </a>
+
+                    <a href="" class="accountLinks">
+                        <img src="../image/settings.svg" alt="Icone paramètres">
+                        <p>Paramètres</p>
+                    </a>
+                </div>
+
+            </div>
+
+        </header>
+
+        <h3 id="benefitsTitle">Newsletter</h3>
+
+        <div class="home3">
+        
+            <section>
+                <h2 id="big">Inscrivez-vous à notre Newsletter et reçevez des leçons !</h2>
+                    <aside>
+                        <img src="../image/illu_news.png" alt="illustration">
+                    </aside>
+                <form method="get" action="aaa.php">
+                    <h2>Entrez votre adresse email</h2>
+                        <fieldset>
+                            <legend>
+                                Votre adresse email
+                            </legend>
+                            <input id="email" type="text" name="email" placeholder="Votre adresse email" maxlength="200">
+                        </fieldset>
+                    <h2>Cochez les leçons que vous souhaitez recevoir</h2>
+                        <fieldset>
+                            <legend>
+                                Vos leçons
+                            </legend>
+                            <span>
+                                <input type="checkbox" name="couleur" id="couleur1" value="1">
+                                <label for="couleur1"> 1 leçon d'anglais par semaine (apprendre l'anglais, améliorer son anglais)  </label>
+                            </span>
+                            <span>
+                                <input type="checkbox" name="couleur" id="couleur2" value="2">
+                                <label for="couleur2"> 1 leçon de français par semaine (améliorer son français : orthographe, grammaire...)  </label>
+                            </span>
+                        </fieldset>
+                    <h2>Protection des mineurs. Vous êtes âgé(e) d'au moins 15 ans.</h2>
+                        <fieldset>
+                            <legend>
+                                Votre age
+                            </legend>   
+                            <span>
+                                <input type="radio" name="sex" id="m" value="1">
+                                <label for="m">oui, j'ai 15 ans et plus</label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sex" id="mme" value="2">
+                                <label for="m">non, j'ai moins de 15 ans. </label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sex" id="autre" value="3">
+                                <label for="autre">J'inscris un enfant de moins de 15 ans, pour lequel j'ai l'autorité parentale.</label>
+                            </span>
+                        </fieldset>
+                    <h2>Approuvez les conditions d'utilisation :</h2>
+                        <fieldset>
+                            <legend>
+                                Votre choix
+                            </legend>
+                            <span>
+                                <input type="checkbox" name="couleur" id="couleur3" value="3">
+                                <label for="couleur3"> J'accepte les <a href="../index.html" target="_blank"> conditions d'utilisation </a></label>
+                            </span>
+                        </fieldset>
+
+                    <div id="cadre-valide">
+                        <input type="button" id="validation" value="Valider les informations">
+                    </div>
+                </form>
+            </section>
+            
+            
+        </div>
+    </div>
+    
+
+
+        <div class="signal">
+            <li>
+                <h2>Besoin d’aide ?</h2>
+                <p>Nous sommes là pour t'aider pour toute question relative à nos produits et services.</p>
+            </li>
+            <a href="../html/contact.html">
+                <button>Nous contacter</button>
+            </a>
+        </div>
+        <footer>
+                <div class="webbase">
+                    <img src="../image/logo.png" alt="Logo du site">
+
+                    <a href="../index.html">Accueil</a>
+                    <a href="../html/courseHome.html">Cours</a>
+                    <a href="../html/forumHome.html">Forum</a>
+                    <a href="">Outils</a>
+
+                </div>
+            </ul>
+            <ul>
+                <li>
+                   <p>FrançaisFacile, meilleure plateforme pédagogique gratuite
+                   </p> 
+                </li>
+                <li id="social">
+                    <a href="https://twitter.com/sitedecours">
+                        <img src="../image/x.png" alt="Logo du reseau social x">
+                    </a>
+                    <a href="https://www.francaisfacile.com/newlesson.php?id=7">
+                        <img src="../image/msg.png" alt="Logo email">
+                    </a>
+                    <a href="https://www.francaisfacile.com/rss.xml">
+                        <img src="../image/rss.png" alt="Logo du rss">
+                    </a>
+                    <a href="https://www.instagram.com/coursfrancaisfacile">
+                        <img src="../image/insta.png" alt="Logo du reseau social instagram">
+                    </a>
+                    <a href="https://www.linkedin.com/company/69748203/">
+                        <img src="../image/linkedin.png" alt="Logo linkedin">
+                    </a>
+                    <a href="https://www.facebook.com/Cours-de-fran%C3%A7ais-quotidiens-Fran%C3%A7aisFacilecom-208635009152323">
+                        <img src="../image/facebook.png" alt="Logo du reseau social facebook">
+                    </a>
+                </li>
+
+            </ul>
+            <ul>
+                <li>
+                    <p>© copyright FrançaisFacile 2024</p>
+                </li>
+                <li id="infosite">
+                    <a href="../html/mentions.html">Mentions légales</a>
+                    <a href="../html/conditions.html">CGU</a>
+                    <a href="../html/plan.html">Plan du site</a>
+                </li>
+
+            </ul>
+
+        </footer>
+
+        <script src="../javascript/main.js"></script>
+        
+    </body>
+</html>

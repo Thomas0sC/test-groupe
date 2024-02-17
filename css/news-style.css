@@ -55,7 +55,8 @@ header {
     cursor: pointer;
 }
 #headerBurgerMenuIcon:active {
-    transform: scale(0.95);
+    height: auto;
+    width: 45%;
     transition: 0.25s;
 }
 
@@ -109,7 +110,7 @@ header {
 }
 
 .burgerMenuLinks {
-    width: 42.5%;
+    width: 42%;
     display: flex;
     align-items: center;
     margin: 0px 0px 10px 0px;
@@ -127,7 +128,7 @@ header {
 }
 .burgerMenuLinks:active {
     background-color: rgba(1, 80, 200, 0.85);
-    transform: scale(0.95);
+    padding: 0px 15px 0px 15px;
     transition: 0.25s;
 }
 .burgerMenuLinks img {
@@ -152,7 +153,8 @@ header {
     transition: 0.25s;
 }
 #headerLogo img:active {
-    transform: scale(0.95);
+    height: 70px;
+    width: auto;
     transition: 0.25s;
 }
 
@@ -231,7 +233,7 @@ header {
 }
 .subMenu li:active {
     background: rgba(1, 80, 200, 0.85);
-    transform: scale(0.95);
+    padding-left: 5px;
     transition: 0.25s;
 }
 
@@ -270,7 +272,8 @@ header {
     cursor: pointer;
 }
 #headerAccountMenuIcon:active {
-    transform: scale(0.95);
+    height: auto;
+    width: 45%;
     transition: 0.25s;
 }
 
@@ -333,7 +336,7 @@ header {
 }
 .accountLinks:active {
     background-color: rgba(1, 80, 200, 0.85);
-    transform: scale(0.95);
+    padding: 0px 15px 0px 15px;
     transition: 0.25s;
 }
 .accountLinks img {
@@ -346,7 +349,7 @@ header {
 
 
 
-/* CSS pour le home1 [Page Accueil] •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
+/* CSS pour le home1 •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
 
 #benefitsTitle {
     width: 100%;
@@ -366,7 +369,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    margin-bottom: 130px;
+    margin-bottom: 125px;
 }
 
 .home1 main {
@@ -393,13 +396,11 @@ header {
     width: 30%;
 }
 
-.home1 main article a {
+.home1 main article h2 {
     width: 100%;
-    margin: 20px;
     text-align: center;
     font-size: 25px;
     font-weight: 700;
-    text-decoration: none;
     color: rgba(0, 25, 50, 1);
 }
 
@@ -447,7 +448,7 @@ header {
 
 
 
-/* CSS pour le courseHome1 [Page Cours] •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
+/* CSS pour le courseHome1 •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
 
 .courseHome1 {
     width: 85%;
@@ -458,7 +459,7 @@ header {
     margin-bottom: 125px;
 }
 
-.courseHome1 main {
+.courseHome1 main{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -500,7 +501,7 @@ header {
 }
 .courseLevel:active{
     background-color: rgba(1, 80, 200, 0.85);
-    transform: scale(0.95);
+    padding: 0px 10px 0px 10px;
     transition: 0.25s;
 }
 
@@ -521,121 +522,11 @@ header {
 
 
 
-/* CSS pour le forumHome1 [Page Forum] •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
-
-.forumHome1 {
-    width: 85%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: auto;
-    margin-bottom: 125px;
-}
-
-.courseHome1 main {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-#forumInfo {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-    background-color: rgba(0, 25, 50, 0.75);
-    backdrop-filter: blur(25px);
-    border-radius: 30px;
-}
-#forumInfo h2 {
-    width: 100%;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 700;
-    color: rgba(200, 230, 255, 1);
-}
-#forumInfo a {
-    margin-bottom: 15px;
-    border: none;
-    background-color: rgba(255, 255, 255, 1);
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 600;
-    border-radius: 50px;
-}
-#forumInfo a:hover {
-    background-color: rgba(0, 100, 255, 0.85);
-    color: rgba(255, 255, 255, 1);
-    transition: 0.25s;
-}
-#forumInfo a:active {
-    background-color: rgba(1, 80, 200, 0.85);
-    transform: scale(0.95);
-    transition: 0.25s;
-}
-
-.forumQuestion {
-    width: 100%;
-    margin: 10px 0px 10px 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-    background-color: rgba(200, 230, 255, 0.75);
-    backdrop-filter: blur(25px);
-    border-radius: 30px;
-}
-.forumQuestion div {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-}
-.forumQuestion div img {
-    width: 25px;
-}
-.forumQuestion div p {
-    margin: 0px 0px 0px 25px;
-    font-size: 18px;
-    font-weight: 600;
-}
-.forumQuestion > p {
-    width: 100%;
-    font-size: 15px;
-    font-weight: 400;
-}
-.forumQuestion a {
-    margin-bottom: 15px;
-    border: none;
-    background-color: rgba(200, 230, 255, 0.25);
-    padding: 10px 15px 10px 15px;
-    color: rgba(0, 25, 50, 1);
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 50px;
-}
-.forumQuestion a:hover {
-    background-color: rgba(0, 100, 255, 0.85);
-    color: rgba(255, 255, 255, 1);
-    transition: 0.25s;
-}
-.forumQuestion a:active {
-    background-color: rgba(1, 80, 200, 0.85);
-    transform: scale(0.95);
-    transition: 0.25s;
-}
-
-
-
-/* CSS pour le home2 [Page Accueil] •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
+/* CSS pour le home3 •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
 
 * {
-    /*margin: 0;
-    padding: 0;*/
+    /* margin: 0;
+    padding: 0; */
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
 
@@ -643,125 +534,114 @@ button{
     font-weight: 600; 
 }
 
+.home3{
+    padding: 70px 0px 70px 0px;
+}
 
-.home2 {
-    width: 100%;
+.home3 section{
+    padding: 60px 90px 60px 110px;
+    margin: auto;
+    width: 70%;
+    border-radius: 30px;
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 100px 0px 0px 0px;
-    border-radius: 30px 30px 0px 0px;
     backdrop-filter: blur(25px);
 }
 
-.home2 article{
-    margin: 0px auto 0px auto;
-    justify-content: space-between;
-    width: 1343px;
-    height: 507px;
+.home3 section form{
+    padding: 0px 350px 0px 0px;
 }
 
-.home2 article img{
-    height: 650px 300px;
-    float: left;
-}
-
-.home2 section{
-    margin: 0px auto 0px auto;
-    justify-content: space-between;
-    width: 1343px;
-    height: 507px;
-}
-
-.home2 section img{
-    height: 650px 300px;
-    float: right;
-}
-
-.home2 article ul{
-    padding: 110px 70px 50px 70px;
-    width: 40%;
-    float: right;
-}
-
-.home2 section ul{
-    padding: 50px 70px 50px 70px;
-    width: 40%;
-}
-
-.home2 article button{
-    padding: 18px 50px 18px 50px;
-    background-color: blue;
-    color: white;
-    cursor: pointer;
-    border-radius: 18px;
-    outline: none;
-    border-style: none;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 20px;
-    margin: 0px 274px 0px 274px;
-    float: right;
-}
-
-#home2-valide{
-    width: 680px;
-    height: 70px;
-    padding: 20px 0px 20px 0px;
+.home3 section fieldset{
+    width:  90%;
+    margin: 0px 0px 40px 0px;
+    padding: 0px 350px 0px 20px;
+    border-radius: 10px;
     display: flex;
+    flex-wrap: wrap;
+    border-color: blue;
+
+}
+
+.home3 section fieldset legend{
+    padding: 0px 5px 0px 5px;
+    color: blue;
+    font-size: 10px;
+
+}
+
+.home3 section input{
+    margin: 12px 0px 17px 7px;
+    border: 0;
+    justify-content: none;
+    align-items: none;
+    background-color: transparent;
+}
+
+.home3 aside{
+    text-align: center;
+}
+
+#big{
+    margin: 0px 0px 70px 0px;
+    text-align: center;
+}
+
+.home3 img{
+    height: 100px;
+    margin: 0px 0px 50px 0px;
+}
+
+.home3 section h2{
+    margin: 0px 0px 20px 0px;
+}
+
+.home3 span{  
     justify-content: center;
-}
-
-#home2-valide-d{
-    width: 680px;
-    height: 70px;
-    padding: 20px 0px 20px 0px;
-    float: right;
-    display: flex;
-    justify-content: center;
-}
-
-.home2 article button:hover{
-    
-    transform: scale(1.05);
-    transition: 0.25s;
-}
-
-.home2 section button:hover{
-    transform: scale(1.05);
-    transition: 0.25s;
-}
-
-.home2 section button{
-    padding: 18px 50px 18px 50px;
-    margin: 0px 274px 0px 274px;
-    background-color: blue;
-    color: white;
-    cursor: pointer;
-    border-radius: 18px;
-    outline: none;
-    border-style: none;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.home2 ul li {
+    align-items: center;
+    font-size: 13px;
+    color: grey;
     list-style-type: none;
-    margin: 10px 10px 10px 80px;
-    display: flex;
+    width: 100%;
 }
 
-.home2 ul h2{
-    list-style-type: none;
-    margin: 0 0px 50px 0;
-    display: flex;
+.home3 label{
+    color: gray;
+    font-size: 13px;
     justify-content: center;
     align-items: center;
 }
 
-#icon-1{
-    height: 18px;
-    float: left;
-    padding: 0 20px 0 0;
+.home3 p{
+    color: grey;
+    font-size: 13px;
+    margin: 12px 12px 12px 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+#cadre-valide{
+    height: 100px;
+    padding: 20px 0px 20px 0px;
+    justify-content: center;
+}
+
+#validation{
+    padding: 18px 50px;
+    margin: 0px auto 0px auto;
+
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 18px;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#validation:hover{
+    transform: scale(1.05);
+    transition: 0.25s;
 }
 
 
@@ -777,6 +657,7 @@ button{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+
 }
 
 .news li{
@@ -795,14 +676,9 @@ button{
     margin: 0px 130px 0px 330px;
     padding: 8px 20px;
     cursor: pointer;
-    border-radius: 50px;
+    border-radius: 18px 20px;
     outline: none;
     border-style: none;
-}
-
-.news button:hover{
-    transform: scale(1.05);
-    transition: 0.25;
 }
 
 
@@ -836,7 +712,7 @@ button{
     margin: 0px 110px 0px 330px;
     padding: 8px 20px;
     cursor: pointer;
-    border-radius: 50px;
+    border-radius: 18px 20px;
     outline: none;
     border-style: none;
 }
@@ -878,6 +754,8 @@ footer ul li img{
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    justify-content: space-between;
+    align-items: center;
     padding: 50px 100px 0px 80px;
 }
 
@@ -902,7 +780,7 @@ footer ul li p{
     color: white;
 }
 
-footer ul li#social{
+#social{
     padding: 0px 300px 0px 100px;
 }
 
